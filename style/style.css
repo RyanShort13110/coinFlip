@@ -3,18 +3,26 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background: darkseagreen;
+}
 
 .container{
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 400px;
+  margin: 70px auto;
+  background: white;
+  border-radius: 15px;
+  width: 400px;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
 
 h1{
-  font-size: 25px;
+  font-size: 22px;
+  width: 85%;
 }
 
 #coin{
