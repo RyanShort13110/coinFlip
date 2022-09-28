@@ -104,6 +104,10 @@ h1{
   border-radius: 10px;
 }
 
+
+
+/* here we create our coin/button animations */
+
 @keyframes glowing {
   0% { background-position: 0 0; }
   50% { background-position: 400% 0; }
